@@ -164,6 +164,52 @@ color: #fff;
 
 /* Services Ended */
 
+/* Projects */
+.projects-container{
+  display: grid;
+ margin: 100px 20px;
+ 
+}
+.projects-container h1{
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+.main-project{
+  display: flex;
+  background-color: #a48d8d;
+}
+.main-project div{
+  width: 100%;
+
+}
+.main-project div h1{
+  padding: 0;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.main-project div p{
+  font-size: large;
+  text-align: justify;
+  padding: 30px 20px;
+}
+.main-project img{
+  width: 100%;
+  height: 300px;
+  transition: transform 0.9s ease-in-out;
+}
+.main-project img:hover{
+  cursor: pointer;
+  transform: scale(0.97); 
+}
+
+
+
+
+
+/* Completed */
+
+
 /* Responsive Design for Small Screens */
 @media (max-width: 850px) {
   /* Navbar */
