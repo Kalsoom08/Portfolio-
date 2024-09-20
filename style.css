@@ -423,7 +423,7 @@ footer p{
   }
 }
 
-/* @media (max-width:600px){
+@media (max-width:600px){
   .hero-section {
     margin-top: 9rem;
     padding-left: 70px; 
@@ -443,7 +443,7 @@ footer p{
   padding:0 10px;
   font-size: small;
   }
-} */
+}
 
 /* @media (max-width: 480px) {
   .hero-section h1 {
