@@ -368,7 +368,7 @@ footer p{
 }
 
 
-/* @media(max-width:780px){
+@media(max-width:780px){
   .hero-section {
     margin-top: 7rem;
     padding-left: 70px; 
@@ -380,10 +380,10 @@ footer p{
   #portfolio-button {
     margin-top: 2rem;
     width: 15%;
-  } */
+  }
 
   /* Services */
-  /* .div-container {
+  .div-container {
     display: grid;
     place-items: center; 
     width: 100%;
@@ -401,18 +401,18 @@ footer p{
     background-size: cover;
     height: 250vh;
     
-  } */
+  }
 
   /* Projects */
-  /* .main-project{
+  .main-project{
     display: grid;
   
   margin-bottom: 10px;
   border: 1px solid black;
-  } */
+  }
 
   /* About  */
-  /* .about-me{
+  .about-me{
     display: grid;
     place-items: center;
     margin: 80px 30px;
@@ -423,7 +423,7 @@ footer p{
   }
 }
 
-@media (max-width:600px){
+/* @media (max-width:600px){
   .hero-section {
     margin-top: 9rem;
     padding-left: 70px; 
