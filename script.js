@@ -31,3 +31,11 @@ buttn.onmouseout = function(){
   buttn.style.backgroundColor = "rgb(192, 56, 56)";
   buttn.style.color = 'white';
 }
+
+// Proggress Bar
+const spans = document.querySelectorAll('.progress-bar span');
+
+spans.forEach((span) => {
+    span.style.width = span.dataset.width;
+    span.innerHTML = span.dataset.width;
+});

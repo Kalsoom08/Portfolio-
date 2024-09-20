@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #a9b9cb3a;
 }
 
 
@@ -171,10 +172,59 @@ nav{
 
 /* Services Ended */
 
+
+/* Skills */
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1{
+  font-size: 40px;
+  margin: 50px 0;
+  padding-top: 30px;
+}
+.container .progress-container {
+  margin-bottom: 25px;
+}
+
+.container .progress-container h4 {
+  margin: 0 0 15px 15px;
+  letter-spacing: .5px;
+}
+
+.container .progress-container .progress-bar {
+  position: relative;
+  width: 500px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
+}
+
+.container .progress-container .progress-bar span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+  border-radius: 30px;
+  background: linear-gradient(#778da6d9, #778da6d9);
+  transition: width 4s linear; 
+}
+
+/* Complted */
 /* Projects */
 .projects-container{
   display: grid;
- margin: 100px 20px;
+ margin: 60px 20px;
  
 }
 .projects-container h1{
@@ -300,7 +350,7 @@ padding-right: 10px;
 /* Footer */
 footer{
   margin-top: 100px;
-  background-color: #375d88d9;
+  background-color: #a7bacfd9;
   text-align: center;
 }
 footer p{
@@ -401,6 +451,17 @@ footer p{
     background-size: cover;
     height: 250vh;
     
+  }
+
+  /* Skills */
+  .container .progress-container .progress-bar {
+    position: relative;
+    width: 400px;
+    height: 25px;
+
+  }
+  .progress-bar span{
+    height: 25px;
   }
 
   /* Projects */
